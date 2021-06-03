@@ -1,0 +1,9 @@
+Line ID;Line color;Pos. sx ord 4;Pos. sx ord 3;Pos. sx ord 2;Pos. sx ord 1;Pos. dx ord 1;Pos. dx ord 2;Pos. dx ord 3;Pos. dx ord 4;Lambda_digit (nm);USARE IL PUNTO PER I DECIMALI!!
+1;viola;0;21.06;13.9;6.89;7.02;13.98;21.52;0;403e-9;
+2;violetto;0;21.2;14;6.90;7.23;14.50;21.40;0;408e-9;
+3;blu;0;22.75;14.98;7.48;7.91;15.23;23.23;0;437e-9;
+4;verde acqua;0;25.75;16.92;8.33;8.50;17.27;26.29;0;492e-9;
+5;verde;0;28.75;18.88;9.3;9.67;19.18;29.28;0;548e-9;
+6;giallo;0;30.5;20.00;9.8;10.00;20.50;31.98;0;579e-9;
+7;rosso;0;0;21.95;10.64;10.67;22.28;0;0;626e-9;
+8;rosso scuro;0;0;0;11.13;12.00;0;0;0;690e-9;
