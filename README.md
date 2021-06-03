@@ -13,7 +13,7 @@ All the rights reserved for papers and documents by people affiliated with Unive
 
 <p>
 <p>
-Resources: www.edutecnica.it/elettronica.htm
+Useful resources: www.edutecnica.it/elettronica.htm
 
 **List of experiments (electrotechnics):**
 1. Internal resistance of digital and analogic voltmeters and ammeters, study of the I(V) function of a bulb including comparison with black-body radiation law.
@@ -25,7 +25,7 @@ Resources: www.edutecnica.it/elettronica.htm
 
 **List of experiments (optics):**
 1. Atomic spectroscopy of Hg source (similar to https://www.youtube.com/watch?v=h4RiczDeLQY), measurements of the refractive index of the glass with spectrometer
-2. Measurement of the wavelenght of a laser and characterisation of the refractive index of different materials with Michelson interferometer (https://www.youtube.com/watch?v=j-u3IEgcTiQ)
+2. Measurement of the wavelenght of a laser and characterisation of the refractive index of different materials with Michelson interferometer (similar to https://www.youtube.com/watch?v=j-u3IEgcTiQ)
 3. Polarimetry and Malus's law
 4. Measurements of the focal lenght of lens array
 5. Measurement of the Planck's constant
