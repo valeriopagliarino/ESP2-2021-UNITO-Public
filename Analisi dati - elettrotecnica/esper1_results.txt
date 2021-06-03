@@ -1,0 +1,235 @@
+
+  +---------------------------------------------------------------+ 
+  |  Oreglia, Sibilla, Pagliarino - Corso B - C.d.L. in Fisica    | 
+  |           Universita' degli Studi di Torino -  ESP2           | 
+  +---------------------------------------------------------------+ 
+  |             ANALISI DATI  - C++11 + CERN ROOT 6               | 
+  +---------------------------------------------------------------+ 
+  | Experiment:  Esperienza 1                                     | 
+  | Date:        13/12/3030                                       | 
+  | Revision:    2.1.0                                            | 
+  | Description: Caratterizzazione strumenti + IV Lamp            | 
+  +---------------------------------------------------------------+ 
+
+
+Dati sperimentali lampadina
+
+V [V]		Verr [V]		I [mA]		Ierr [mA]
+0.406		0.0009		4.929		0.007
+0.8996		0.0014		7.433		0.009
+1.385		0.006		9.24		0.01
+1.806		0.007		10.72		0.1
+2.308		0.007		12.35		0.11
+2.78		0.008		13.73		0.12
+3.271		0.008		15.06		0.13
+3.75		0.009		16.36		0.13
+4.28		0.009		17.65		0.14
+4.702		0.01		18.64		0.14
+5.176		0.01		19.69		0.15
+5.733		0.011		20.92		0.15
+6.227		0.011		21.95		0.16
+6.743		0.012		22.96		0.16
+7.205		0.012		23.85		0.17
+7.72		0.013		24.77		0.17
+8.212		0.013		25.69		0.18
+8.702		0.014		26.58		0.18
+9.19		0.014		27.45		0.19
+9.684		0.015		28.3		0.19
+10.12		0.06		29.08		0.2
+10.58		0.06		29.86		0.2
+11.15		0.06		30.8		0.2
+11.56		0.06		31.45		0.21
+
+
+Resistenza interna voltmetro analogico = 		(1.873e+05		 +/- 1.23e+04)	Ω
+Resistenza interna voltmetro digitale = 		(9.189e+06	 +/- 4.36e+05)	Ω
+Resistenza amperometro analogico con metodo partitore = (11.65	 +/- 0.04093)	Ω
+Resistenza amperometro analogico con metodo diretto = 	(11.35	 +/- 0.118)	Ω
+Resistenza amperometro digitale con metodo partitore = 	(6.937	 +/- 0.02564)	Ω
+Resistenza amperometro digitale con metodo diretto = 	(7.143	 +/- 0.04655)	Ω
+
+
+Potenza dissipata dai voltmetri durante la misurazione:
+Volmetro analogico, Va, P = (0.3332 +/- 0.02563) mW
+Volmetro analogico, Vb, P = (0.02584 +/- 0.0008657) mW
+Volmetro digitale, Va, P = (0.006954 +/- 0.001651)  mW
+Volmetro digitale, Vb, P = (0.006274 +/- 0.0002827)  mW
+
+Calcolo potenza (K) e resistenza (m)
+ Potenza (m) 		 Errore 		 Resistenza (K) 		 Errore
+2.001		0.005268		0.08237		0.0002169
+6.687		0.01318		0.121		0.0002386
+12.8		0.05714		0.1499		0.0006693
+19.36		0.1956		0.1685		0.001702
+28.5		0.2682		0.1869		0.001758
+38.17		0.3512		0.2025		0.001863
+49.26		0.442		0.2172		0.001949
+61.35		0.5093		0.2292		0.001903
+75.54		0.6199		0.2425		0.00199
+87.65		0.6842		0.2523		0.001969
+101.9		0.801		0.2629		0.002066
+119.9		0.8902		0.274		0.002034
+136.7		1.025		0.2837		0.002128
+154.8		1.114		0.2937		0.002112
+171.8		1.258		0.3021		0.002211
+191.2		1.351		0.3117		0.002202
+211		1.515		0.3197		0.002296
+231.3		1.61		0.3274		0.002279
+252.3		1.788		0.3348		0.002373
+274.1		1.888		0.3422		0.002358
+294.3		2.672		0.348		0.00316
+315.9		2.773		0.3543		0.00311
+343.4		2.896		0.362		0.003053
+363.6		3.075		0.3676		0.003109
+
+
+
+Regressione con la (4) della relazione P(R)
+---------------------------------------------
+Fit chi square = 71.92  ndof = 21   chi/ndf = 3.425
+p-value = 1.722e-07
+m = 	1.237e+04	 +/- 217.8
+q = 	3.573	 +/- 0.01031
+
+
+
+Regressione con la (4) della relazione P(R) con dof aggiuntivi m*x^q+b*x^(q/4)+c
+---------------------------------------------
+Fit chi square = 1.075  ndof = 19   chi/ndf = 0.0566
+p-value = 1
+m = 	1.463e+04	 +/- 1614
+q = 	3.675	 +/- 0.1194
+b = 	-42.12	 +/- 25.73
+c = 	6.501	 +/- 3.198
+
+Intervallo ristretto: [1;end]
+
+
+
+Regressione con la (4) di P(R) - Modello semplificato mr^q con intervallo ristretto
+---------------------------------------------
+Fit chi square = 71.92  ndof = 21   chi/ndf = 3.425
+p-value = 1.722e-07
+m = 	1.237e+04	 +/- 217.8
+q = 	3.573	 +/- 0.01031
+
+
+
+Regressione P(R) modello mr^q + termine convettivo 
+---------------------------------------------
+Fit chi square = 6.249  ndof = 20   chi/ndf = 0.3125
+p-value = 0.9985
+m = 	1.853e+04	 +/- 1043
+q = 	3.939	 +/- 0.04847
+b = 	17.22	 +/- 2.234
+
+
+
+Regressione P(R) modello mr^q + termine a freddo, costante
+---------------------------------------------
+Fit chi square = 3.664  ndof = 20   chi/ndf = 0.1832
+p-value = 1
+m = 	1.737e+04	 +/- 800.7
+q = 	3.866	 +/- 0.03731
+c = 	1.732	 +/- 0.1792
+
+
+
+Modello mr^q con q=4 (3A)
+---------------------------------------------
+Fit chi square = 1368  ndof = 22   chi/ndf = 62.2
+p-value = 4.561e-276
+m = 	2.618e+04	 +/- 138
+
+
+
+Modello mr^q con q=4 + termine a freddo, costante (3B)
+---------------------------------------------
+Fit chi square = 16.44  ndof = 21   chi/ndf = 0.783
+p-value = 0.7443
+m = 	2.049e+04	 +/- 149.9
+c = 	2.303	 +/- 0.05079
+
+
+
+Modello mr^q con q^4 + termine costante + termine convettivo (4)
+---------------------------------------------
+Fit chi square = 7.71  ndof = 20   chi/ndf = 0.3855
+p-value = 0.9936
+m = 	1.981e+04	 +/- 269.4
+b = 	22.32	 +/- 7.701
+c = 	-0.2735	 +/- 0.8931
+
+
+
+Regressione con la (5) della relazione I(V)
+---------------------------------------------
+Fit chi square = 2.065  ndof = 20   chi/ndf = 0.1033
+p-value = 1
+m = 	1.479e+04	 +/- 425.8
+q = 	3.719	 +/- 0.01973
+
+
+
+1C Regressione relazione R(V) - Ricavato dal modello semplificato mr^q
+---------------------------------------------
+Fit chi square = 1.442  ndof = 20   chi/ndf = 0.0721
+p-value = 1
+m = 	1.491e+04	 +/- 563.4
+q = 	3.727	 +/- 0.02783
+
+
+
+2A Regressione polinomiale di grado 4 della P(R) a+bx+cx^2+dx^3+ex^4
+---------------------------------------------
+Fit chi square = 0.7812  ndof = 18   chi/ndf = 0.0434
+p-value = 1
+a = 	21.86	 +/- 3.785
+b = 	-376.2	 +/- 64.16
+c = 	2331	 +/- 447.5
+d = 	-4792	 +/- 1837
+e = 	2.197e+04	 +/- 3013
+
+
++-------------------------------------------------------------+
+Test di Fisher tra modello completo e mr^q + convettivo
+Fisher var (chi2/ndf  /  chi2/ndf)   f = 0.1811
+p-value = 0.000229
+
+
++-------------------------------------------------------------+
+Fisher tra modello completo e mr^q + costante
+Fisher var (chi2/ndf  /  chi2/ndf)   f = 0.309
+p-value = 0.006635
+
+
++-------------------------------------------------------------+
+Fisher tra modello completo e modello completo ma con q=4
+Fisher var (chi2/ndf  /  chi2/ndf)   f = 0.1468
+p-value = 5.089e-05
+
++-------------------------------------------------------------+
+
+Test Z Voltmetro analogico - Misure <=> Costruttore
+Z test 2-tailed:  Z = -15.23   pval = 2.302e-52
+
+Test Z Voltmetro digitale - Misure <=> Costruttore
+Z test 2-tailed:  Z = -21.07   pval = 1.371e-98
+
+Test Z Amperometro analogico - Metodo diretto <=> Costruttore
+Z test 2-tailed:  Z = -96.21   pval = 0
+
+Test Z Amperometro analogico - Metodo partitore <=> Costruttore
+Z test 2-tailed:  Z = -284.7   pval = 0
+
+Test Z Amperometro digitale - Metodo diretto <=> Costruttore
+Z test 2-tailed:  Z = -153.4   pval = 0
+
+Test Z Amperometro digitale - Metodo partitore <=> Costruttore
+Z test 2-tailed:  Z = -270.5   pval = 0
+
++-------------------------------------------------------------+
+
+
+Finished computation at Sun Feb 28 20:24:19 2021
+elapsed time: 0.9761s

@@ -1,0 +1,33 @@
+
+  +---------------------------------------------------------------+ 
+  |  Oreglia, Sibilla, Pagliarino - Corso B - C.d.L. in Fisica    | 
+  |           Università degli Studi di Torino -  ESP2            | 
+  +---------------------------------------------------------------+ 
+  |             ANALISI DATI  - C++11 + CERN ROOT 6               | 
+  +---------------------------------------------------------------+ 
+  | Experiment:  Esperienza 2                                     | 
+  | Date:        13/12/2020                                       | 
+  | Revision:    1.1.0                                            | 
+  | Description: Caratterizzazione oscilloscopio e trasformatori  | 
+  +---------------------------------------------------------------+ 
+
+
+
+Rapporto di trasformazione T1 = 0.0621538  +/- 0.00351056
+Rapporto di trasformazione T2 = 1.9964  +/- 0.101651
+Impedenza interna oscilloscopio Ri [Ohm] = 1.0194e+06 +/- 141692
+
+Impedenza interna dichiarata dal costruttore a 50Hz [Ohm] = 999980
+Test Z di compatibilità misurata <=> dichiarata, Z = -0.137064  pvalue (two-tailed) = 0.89098
+tau [s] = 2.46241 +/- 0.01601
+f_c [Hz] = 0.406106 +/- 0.00264041
+
+Attenuazione integratore: condensatore [F], tensione in uscita [V], guadagno in uscita [dB]
+C_a	5.074e-06 +/- 1.3e-08		0.0135 +/- 0.0004	-58.2998 +/- 0.405224
+C_a	1.024e-06 +/- 5e-09		0.0564 +/- 0.002	-45.8809 +/- 0.439138
+C_a	1.4322e-07 +/- 3.2e-10		0.378 +/- 0.01		-29.3566 +/- 0.388296
+C_a	4.698e-08 +/- 1.2e-10		1.17 +/- 0.04		-19.5427 +/- 0.431455
+
+
+Finished computation at Sun Feb 28 18:27:33 2021
+elapsed time: 0.743719s

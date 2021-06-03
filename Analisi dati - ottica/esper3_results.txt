@@ -1,0 +1,40 @@
+
+  +---------------------------------------------------------------+ 
+  |  Oreglia, Sibilla, Pagliarino - Corso B - C.d.L. in Fisica    | 
+  |           Universita' degli Studi di Torino -  ESP2           | 
+  +---------------------------------------------------------------+ 
+  |             ANALISI DATI  - C++11 + CERN ROOT 6               | 
+  +---------------------------------------------------------------+ 
+  | Experiment:  Ottica - esperienza 3                            | 
+  | Date:        13/12/3030                                       | 
+  | Revision:    2.1.0                                            | 
+  | Description: Polarimetro                                      | 
+  +---------------------------------------------------------------+ 
+
+
+
+
+
+Fit legge di Malus
+---------------------------------------------
+Fit chi square = 12.3  ndof = 33   chi/ndf = 0.3727
+p-value = 0.9996
+
+media_s_20  6.7 +/- 0.05
+media_s_10 3.604 +/- 0.05
+media_f_20-5.896 +/- 0.05
+
+
+
+ Concentrazione saccarosio 20 			= 0.04973 +/- 0.0006146	 g/cm^3
+
+ Concentrazione saccarosio 10 			= 0.05172 +/- 0.001219	 g/cm^3
+
+ Concentrazione fruttosio  20 			= 0.03157 +/- 0.0004434	 g/cm^3
+
+ Test z di Gauss = 			-1.456
+ p-value = 				0.1454
+
+
+Finished computation at Sat May  1 11:43:24 2021
+elapsed time: 0.6847s

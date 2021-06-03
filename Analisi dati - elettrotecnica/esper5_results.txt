@@ -1,0 +1,78 @@
+
+  +---------------------------------------------------------------+ 
+  |  Oreglia, Sibilla, Pagliarino - Corso B - C.d.L. in Fisica    | 
+  |           Università degli Studi di Torino -  ESP2            | 
+  +---------------------------------------------------------------+ 
+  |             ANALISI DATI  - C++11 + CERN ROOT 6               | 
+  +---------------------------------------------------------------+ 
+  | Experiment:  Elettrotecnica - esperienza 5                    | 
+  | Date:        15/03/2021                                       | 
+  | Revision:    1.0.0                                            | 
+  | Description: Caratterizzazione di un diodo al silicio         | 
+  +---------------------------------------------------------------+ 
+
+
+
+Fit diodo raddrizzatore al silicio
+Chi^2  19.98
+p-val  0.7478
+ndof   25
+rX^2   0.7993
+Is     1.035e-09 +/- 6.973e-11 A
+η*Vt   0.04015 +/- 0.0001782 V
+
+
+η diodo silicio   1.573 +/- 0.008918 adim
+
+
+Valori di chi^2 aggiungendo i valori esterni alla restrizione di fit
+
+Vmin = 0.1389	 NDoF = 29  chi^2 = 745
+Vmin = 0.311	 NDoF = 28  chi^2 = 714.9
+Vmin = 0.3862	 NDoF = 27  chi^2 = 347.3
+Vmin = 0.4419	 NDoF = 26  chi^2 = 123.4
+Vmin = 0.4637	 NDoF = 25  chi^2 = 19.98
+Vmin = 0.4902	 NDoF = 24  chi^2 = 19.98
+Vmin = 0.5188	 NDoF = 23  chi^2 = 19.95
+Vmin = 0.5365	 NDoF = 22  chi^2 = 19.2
+Vmin = 0.5622	 NDoF = 21  chi^2 = 18.32
+Vmin = 0.5852	 NDoF = 20  chi^2 = 18
+
+Fit diodo LED
+Chi^2  210.6
+p-val  6.673e-30
+ndof   28
+rX^2   7.521
+Is     1.639e-22 +/- 1 A
+η*Vt   0.01991 +/- 1 V
+
+
+Fit diodo LED con f. inv. e resistenza giunzione
+Chi^2  31.02
+p-val  0.05492
+ndof   20
+rX^2   1.551
+Is     1e-08 +/- 0 A
+η*Vt   0.04739 +/- 4.563e-05 V
+R_d    -0.8115 +/- 0.07095 Ω
+
+
+η diodo led   1.856 +/- 0.006794 adim
+
+
+Valori di chi^2 aggiungendo i valori esterni alla restrizione di fit
+
+Imin = 2.35e-07	 NDoF = 28  chi^2 = 6420
+Imin = 1.435e-06	 NDoF = 27  chi^2 = 6333
+Imin = 1.544e-05	 NDoF = 26  chi^2 = 5054
+Imin = 4.734e-05	 NDoF = 25  chi^2 = 2499
+Imin = 9.844e-05	 NDoF = 24  chi^2 = 1004
+Imin = 0.0002306	 NDoF = 23  chi^2 = 549.8
+Imin = 0.0004305	 NDoF = 22  chi^2 = 324.3
+Imin = 0.0006547	 NDoF = 21  chi^2 = 159.8
+Imin = 0.001348	 NDoF = 20  chi^2 = 52.14
+Imin = 0.002191	 NDoF = 19  chi^2 = 31.02
+
+
+Finished computation at Fri Apr  2 22:21:52 2021
+elapsed time: 0.9247s

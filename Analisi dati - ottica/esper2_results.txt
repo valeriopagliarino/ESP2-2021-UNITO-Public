@@ -1,0 +1,68 @@
+
+  +---------------------------------------------------------------+ 
+  |  Oreglia, Sibilla, Pagliarino - Corso B - C.d.L. in Fisica    | 
+  |           Universita' degli Studi di Torino -  ESP2           | 
+  +---------------------------------------------------------------+ 
+  |             ANALISI DATI  - C++11 + CERN ROOT 6               | 
+  +---------------------------------------------------------------+ 
+  | Experiment:  Ottica - esperienza 2                            | 
+  | Date:        13/12/3030                                       | 
+  | Revision:    2.1.0                                            | 
+  | Description: Polarimetro                                      | 
+  +---------------------------------------------------------------+ 
+
+
+
+Lunghezza d'onda del laser:
+
+Numero di misure = 10
+Media = 2.533e-05
+Deviazione standard = 5.9e-07
+Errore sulla media = 1.8657438e-07
+
+Lunghezza d'onda misurata per il laser He-Ne = 6.3325e-07 +/- 4.7310486e-09 m
+Valore di riferimento = 6.328e-07 +/- 1e-10
+
+-----------------------------------
+
+Misura n del vetro:
+
+Zero     = -0.09 +/- 0.088825672 deg
+Media θ  = 7.24 +/- 0.099699549 deg
+
+Indice di rifrazione del vetro n = 1.58 +/- 0.03
+
+-----------------------------------
+
+Misura indice di rifrazione dell'aria
+
+Fit lineare per calcolo indice di rifrazione dell'aria  N = a + b*x
+
+Chi2  = 1.0356104
+dof   = 8
+p-val = 0.99801322
+Coff. = 0.99801322
+a     = -0.44433783 +/- 0.74768898 frange
+b     = 0.020553948 +/- 0.00077661642 frange / mbar
+
+Δn/ΔP = 2.0115277e-07 +/- 2.6022149e-08
+
+n a 987.7 mbar = 1.0001987 +/- 2.5702084e-05
+
+n a 101.325 mbar = 1.0002038 +/- 2.6366942e-05
+
+-----------------------------------
+
+Confronto con i valori di riferimento:
+
+Lunghezza d'onda laser
+Z test 2-tailed:  Z = -0.095095093   pval = 0.9242393
+
+Indice di rifrazione dell'aria alla pressione di riferimento:
+Z test 2-tailed:  Z = -2.5783025   pval = 0.0099287026
+N_ref = 1.0002718
+
+
+
+Finished computation at Sat May  1 11:33:24 2021
+elapsed time: 1.937495s

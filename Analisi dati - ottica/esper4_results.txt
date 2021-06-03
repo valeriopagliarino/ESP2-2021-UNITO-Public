@@ -1,0 +1,99 @@
+
+  +---------------------------------------------------------------+ 
+  |  Oreglia, Sibilla, Pagliarino - Corso B - C.d.L. in Fisica    | 
+  |           Universita' degli Studi di Torino -  ESP2           | 
+  +---------------------------------------------------------------+ 
+  |             ANALISI DATI  - C++11 + CERN ROOT 6               | 
+  +---------------------------------------------------------------+ 
+  | Experiment:  Ottica - esperienza 4                            | 
+  | Date:        13/12/3030                                       | 
+  | Revision:    2.1.0                                            | 
+  | Description: Lunghezze focali delle lenti                     | 
+  +---------------------------------------------------------------+ 
+
+
+
+
+--------------- MISURE RIPETUTE LENTE CONVERGENTE DIRITTA A 0.490
+
+ Media 			= 0.9644 m
+ Dev. Std. 		= 0.002894 m
+ Errore sulla media 	= 0.0005373 m
+ Numero di bins 	= 17  (0.955, 0.972) m
+ Numero entries 	= 29
+
+
+--------------- MISURE RIPETUTE LENTE CONVERGENTE RUOTATA A 0.490
+
+ Media 			= 0.9647 m
+ Dev. Std. 		= 0.00176 m
+ Errore sulla media 	= 0.0003268 m
+ Numero di bins 	= 30  (0.950, 0.980) m
+ Numero entries 	= 29
+
+
+--------------- MISURE RIPETUTE LENTE CONVERGENTE DIRITTA A 0.530
+
+ Media 			= 0.8928 m
+ Dev. Std. 		= 0.001734 m
+ Errore sulla media 	= 0.0003165 m
+ Numero di bins 	= 24  (0.882, 0.906) m
+ Numero entries 	= 30
+
+
+--------------- MISURE RIPETUTE LENTE CONVERGENTE RUOTATA A 0.530
+
+ Media 			= 0.8933 m
+ Dev. Std. 		= 0.001672 m
+ Errore sulla media 	= 0.0003053 m
+ Numero di bins 	= 17  (0.886, 0.902) m
+ Numero entries 	= 30
+
+
+--------------- MISURE RIPETUTE LENTE DIVERGENTE DIRITTA A 0.620
+
+ Media 			= 1.161 m
+ Dev. Std. 		= 0.002825 m
+ Errore sulla media 	= 0.0005158 m
+ Numero di bins 	= 15  (1.150, 1.170) m
+ Numero entries 	= 30
+
+
+--------------- FIT TGraph
+
+Fit Lente Divergente
+Chi^2  4.929
+p-val  0.4246
+ndof   5
+rX^2   0.9858
+slope  -0.9869 +/- 0.006962 
+f      0.2134 +/- 0.0009235 m
+p_p_0  0
+
+
+Fit Lente Convergente
+Chi^2  6.685
+p-val  0.1535
+ndof   4
+rX^2   1.671
+slope  -0.9403 +/- 0.004462 
+f      0.1552 +/- 0.0004712 m
+p_p_0  0
+
+
+La lunghezza focale della lente convergente è  = 0.1552 +/- 0.0004712 m
+
+La lunghezza focale del sistema di lenti c+d è = 0.2134 +/- 0.0009235 m
+
+La lunghezza focale della lente divergente è = -0.5691 +/- 4.996e-05
+
+
+Test di compatibilità per le misure diritto e rovescio:
+490		 z = -0.5483  p = 0.2938
+530		 z = -0.9854  p = 0.1661
+
+
+
+
+Finished computation at Sat May  8 18:01:30 2021
+elapsed time: 2.178s
