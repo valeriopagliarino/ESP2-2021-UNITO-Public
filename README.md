@@ -1,7 +1,7 @@
 # Physics laboratory II - GR. 1 - A.A. 2020-2021
 
 Data analysis of the introductory course "Esperimentazioni II" / Physics Laboratory II (Electromagnetism and optics) at Department of Physics - University of Turin. (2nd year) <br>
-**Authors: Federica Sibilla, Valerio Pagliarino, Filippo Oreglia - Students at University of Turin.** <br> Proff. R. Bellan, S. Argirò
+**Authors: Federica Sibilla, Filippo Oreglia, Valerio Pagliarino - Students at University of Turin.** <br> Proff. R. Bellan, S. Argirò
 <p>
 All the rights reserved for papers and documents by people affiliated with University of Turin and other authors. Data analysis macros and experimental data are released under CC-BY license.
   
